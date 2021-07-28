@@ -1,0 +1,41 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+/*======== Benner Area css========== */
+.benner{
+    background-color: #264653;
+    padding-top: 30px;
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 150px; 
+}
+.text-color{
+    color: #ffffff;
+}
+.honda-cbr h1{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+}
+.pur-btn{
+    background-color: #E76F51;
+    border: 0;
+    padding: 10px 46px;
+    color: #fff;
+    font: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+@media only screen and (max-width: 767px){
+    .header-bike{
+        width: 350px;
+        height: 280px;
+        padding-left:0;
+    }
+    .benner{
+        padding:1rem;
+    }
+
+}
