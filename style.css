@@ -92,16 +92,32 @@ body{
 .faq span{
     color: #E76F51;
 }
+/* =====mini about====== */
 .icon{
     background-color:rgb(156, 173, 190);
     border-radius: 20px;
     margin-bottom: 10px ;
 }
-  
-
-  
-
-
+/*============-- company imag--======== */
+ .company{  
+    margin-top: 50px;
+    margin-bottom: 40px;
+    color: gray;
+    text-align: center;
+}
+/* =========Footer ======== */
+.list-unstyled li a {
+    color: black;
+}
+.list-unstyled li a :hover{
+    color: #3167eb;
+}
+.color-text{
+    color: gray;
+}
+.pay-card{
+    color: gray;
+}
     /* ========Media Query========= */
 @media only screen and (max-width: 767px){
     .header-bike{
@@ -123,4 +139,11 @@ body{
         width: 100%;
         
     }
+    .company{
+        text-align: center;
+
+    }
+    
+        
+    
 }
